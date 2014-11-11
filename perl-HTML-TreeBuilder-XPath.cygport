@@ -1,0 +1,14 @@
+CPAN_AUTHOR=mirod
+inherit perl
+
+NAME="perl-HTML-TreeBuilder-XPath"
+VERSION=0.14
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl HTML::TreeBuilder XPath support module"
+DESCRIPTION="Extension to HTML::TreeBuilder that adds an XPath engine to
+HTML::TreeBuilder."
+
+ARCH=noarch
+
+REQUIRES="perl-HTML-Tree"
